@@ -7,8 +7,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/blog/img/favicon.png">
-  <link rel="icon" href="/blog/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/blog/blog/img/favicon.png">
+  <link rel="icon" href="/blog/blog/img/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
@@ -19,7 +19,7 @@
     <meta name="description" content="关键字 数据类型关键字(12个)      关键字 含义 关键字 含义     char 声明字符型变量或函数 signed 声明有符号类型变量或函数   float 声明浮点型变量或函数 unsigned 声明无符号类型变量或函数   double 声明双精度变量或函数 void 声明函数无返回值或无参数，声明无类型指针   int 声明整型变量或函数 struct 声明结构体变量或函数   s">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C语言">
-<meta property="og:url" content="https://kd-happy.github.io/posts/2021/04-22b180539b358b.html">
+<meta property="og:url" content="https://kd-happy.github.io/blog/posts/2021/04-22b180539b358b.html">
 <meta property="og:site_name" content="KD的博客">
 <meta property="og:description" content="关键字 数据类型关键字(12个)      关键字 含义 关键字 含义     char 声明字符型变量或函数 signed 声明有符号类型变量或函数   float 声明浮点型变量或函数 unsigned 声明无符号类型变量或函数   double 声明双精度变量或函数 void 声明函数无返回值或无参数，声明无类型指针   int 声明整型变量或函数 struct 声明结构体变量或函数   s">
 <meta property="og:locale" content="zh_CN">
@@ -59,12 +59,12 @@
 <link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
 
 
-<link  rel="stylesheet" href="/blog/css/main.css" />
+<link  rel="stylesheet" href="/blog/blog/css/main.css" />
 
 
-  <link id="highlight-css" rel="stylesheet" href="/blog/css/highlight.css" />
+  <link id="highlight-css" rel="stylesheet" href="/blog/blog/css/highlight.css" />
   
-    <link id="highlight-css-dark" rel="stylesheet" href="/blog/css/highlight-dark.css" />
+    <link id="highlight-css-dark" rel="stylesheet" href="/blog/blog/css/highlight-dark.css" />
   
 
 
@@ -73,18 +73,18 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"kd-happy.github.io","root":"/","version":"1.9.0","typing":{"enable":true,"typeSpeed":70,"cursorChar":"|","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":2},"lazyload":{"enable":true,"loading_img":"/blog/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/blog/local-search.xml"};
+    var CONFIG = {"hostname":"kd-happy.github.io","root":"/blog/","version":"1.9.0","typing":{"enable":true,"typeSpeed":70,"cursorChar":"|","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":2},"lazyload":{"enable":true,"loading_img":"/blog/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/blog/blog/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
       Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
     }
   </script>
-  <script  src="/blog/js/utils.js" ></script>
-  <script  src="/blog/js/color-schema.js" ></script>
+  <script  src="/blog/blog/js/utils.js" ></script>
+  <script  src="/blog/blog/js/color-schema.js" ></script>
 
   
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="KD的博客" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/blog/atom.xml" title="KD的博客" type="application/atom+xml">
 </head>
 
 
@@ -97,7 +97,7 @@
 <div class="header-inner" style="height: 80vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="/blog/">
       <strong>KD</strong>
     </a>
 
@@ -116,7 +116,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/">
+              <a class="nav-link" href="/blog/blog/">
                 <i class="iconfont icon-home-fill"></i>
                 首页
               </a>
@@ -128,7 +128,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/archives/">
+              <a class="nav-link" href="/blog/blog/archives/">
                 <i class="iconfont icon-archive-fill"></i>
                 归档
               </a>
@@ -140,7 +140,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/">
+              <a class="nav-link" href="/blog/categories/">
                 <i class="iconfont icon-category-fill"></i>
                 分类
               </a>
@@ -152,7 +152,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/tags/">
+              <a class="nav-link" href="/blog/blog/tags/">
                 <i class="iconfont icon-tags-fill"></i>
                 标签
               </a>
@@ -164,7 +164,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/links/">
+              <a class="nav-link" href="/blog/blog/links/">
                 <i class="iconfont icon-link-fill"></i>
                 友链
               </a>
@@ -176,7 +176,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/atom.xml">
+              <a class="nav-link" href="/blog/blog/atom.xml">
                 <i class="iconfont icon-rss"></i>
                 RSS
               </a>
@@ -520,7 +520,7 @@
 <li>自定义标识符不可用关键字及预定义标识符</li>
 <li>自定义标识符最好见明知义</li>
 </ul>
-<h2 id="数据类型分类"><a href="#数据类型分类" class="headerlink" title="数据类型分类"></a>数据类型分类</h2><p><img src="https://s1.ax1x.com/2020/07/09/UeGWh4.png" srcset="/blog/img/loading.gif" lazyload alt=""></p>
+<h2 id="数据类型分类"><a href="#数据类型分类" class="headerlink" title="数据类型分类"></a>数据类型分类</h2><p><img src="https://s1.ax1x.com/2020/07/09/UeGWh4.png" srcset="/blog/blog/img/loading.gif" lazyload alt=""></p>
 <h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p><strong>常量的分类</strong></p>
 <ul>
 <li>整型常量：    用十进制、八进制、十六进制表示</li>
@@ -884,7 +884,7 @@
 <p>三目运算符</p>
 <p>格式：   表达式1 ? 表达式2:  表达式3</p>
 <p>表达式1为真时取表达式2的值；表达式1为假时取表达式3的值</p>
-<h2 id="语句"><a href="#语句" class="headerlink" title="语句"></a>语句</h2><p><img src="https://s1.ax1x.com/2020/07/09/UmyKv6.png" srcset="/blog/img/loading.gif" lazyload alt="UmyKv6.png"></p>
+<h2 id="语句"><a href="#语句" class="headerlink" title="语句"></a>语句</h2><p><img src="https://s1.ax1x.com/2020/07/09/UmyKv6.png" srcset="/blog/blog/img/loading.gif" lazyload alt="UmyKv6.png"></p>
 <p><strong>语句</strong>：组成程序的<strong>基本元素</strong>，以 “ ; “ 作为结尾。</p>
 <ol>
 <li><p>表达式语句：表达式 + “ ; “</p>
@@ -906,8 +906,8 @@
 <p><strong>程序</strong>是算法用某种程序设计语言的具体实现，程序可以不满足算法的性质。</p>
 <p><em>程序</em>是对解题方案的准确而完整的描述，是解决问题的<em>一系列指令</em>。</p>
 <p><strong>流程图</strong></p>
-<p><img src="https://s1.ax1x.com/2020/07/09/UmgmCj.png" srcset="/blog/img/loading.gif" lazyload alt="UmgmCj.png"></p>
-<p><img src="https://s1.ax1x.com/2020/07/09/Umgax1.png" srcset="/blog/img/loading.gif" lazyload alt="Umgax1.png"></p>
+<p><img src="https://s1.ax1x.com/2020/07/09/UmgmCj.png" srcset="/blog/blog/img/loading.gif" lazyload alt="UmgmCj.png"></p>
+<p><img src="https://s1.ax1x.com/2020/07/09/Umgax1.png" srcset="/blog/blog/img/loading.gif" lazyload alt="Umgax1.png"></p>
 <p>以特定的图形符号加上说明，表示算法的图，称为流程图或框图。</p>
 <p>没有种类，有并行的图，比如关系图，类图等</p>
 <h2 id="输入输出函数"><a href="#输入输出函数" class="headerlink" title="输入输出函数"></a>输入输出函数</h2><h3 id="输出函数"><a href="#输出函数" class="headerlink" title="输出函数"></a>输出函数</h3><p>C语言的输入和输出操作是通过函数来实现的，在使用前必须在程序的前面使用命令：#include <stdio.h></p>
@@ -1004,7 +1004,7 @@
 <p>请输入你的两位数字号：20<br>请输入性别(F/M)：F<br>请输入你的年龄：12<br>20号性别是F，年龄是12岁。</p>
 </blockquote>
 <p>scanf(  )  函数在读取数据时，会将输入的数据流存储在缓冲区中，根据指定的数据类型从输入流中匹配，当输入的数据与指定<em>类型不匹配</em>时，就会结束输入；当下一个输入为字符型时，需要清空缓冲区中的回车符，可以用getchar(  )  函数接收掉字符。</p>
-<h2 id="文件包含"><a href="#文件包含" class="headerlink" title="文件包含"></a>文件包含</h2><p><img src="https://s1.ax1x.com/2020/07/10/UumI4s.png" srcset="/blog/img/loading.gif" lazyload alt="UumI4s.png"></p>
+<h2 id="文件包含"><a href="#文件包含" class="headerlink" title="文件包含"></a>文件包含</h2><p><img src="https://s1.ax1x.com/2020/07/10/UumI4s.png" srcset="/blog/blog/img/loading.gif" lazyload alt="UumI4s.png"></p>
 <p><strong>头文件</strong>：用于保存程序的声明，包括：功能函数原型、数据类型的声明、数据接口声明等。</p>
 <p><strong>文件包</strong>含是指一个源文件可以将另一个源文件的全部内容包含进来。</p>
 <p>头文件括起来的区别：</p>
@@ -1122,9 +1122,9 @@
 <li><em>功能</em>：跳过<em>循环体其余语句</em>，转向计算“循环变量增值”表达式（for循环），或者转向“循环条件”的判定（while和do-while循环）。</li>
 </ol>
 <p><strong>两者对不同循环的区别</strong></p>
-<p><img src="https://s1.ax1x.com/2020/07/11/UQYFF1.png" srcset="/blog/img/loading.gif" lazyload alt="UQYFF1.png"></p>
-<p><img src="https://s1.ax1x.com/2020/07/11/UQYVSK.png" srcset="/blog/img/loading.gif" lazyload alt="UQYVSK.png"></p>
-<p><img src="https://s1.ax1x.com/2020/07/11/UQt1HJ.png" srcset="/blog/img/loading.gif" lazyload alt="UQt1HJ.png"></p>
+<p><img src="https://s1.ax1x.com/2020/07/11/UQYFF1.png" srcset="/blog/blog/img/loading.gif" lazyload alt="UQYFF1.png"></p>
+<p><img src="https://s1.ax1x.com/2020/07/11/UQYVSK.png" srcset="/blog/blog/img/loading.gif" lazyload alt="UQYVSK.png"></p>
+<p><img src="https://s1.ax1x.com/2020/07/11/UQt1HJ.png" srcset="/blog/blog/img/loading.gif" lazyload alt="UQt1HJ.png"></p>
 <h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><p>函数：完成特定工作的独立程序模块</p>
 <p><em>作用</em></p>
 <ol>
@@ -1136,7 +1136,7 @@
 <blockquote>
 <p>有参数时称为有参函数，没参数时称为无参函数，无参函数在括号中用void。</p>
 </blockquote>
-<p><img src="https://s1.ax1x.com/2020/07/12/U1hFQf.png" srcset="/blog/img/loading.gif" lazyload alt="U1hFQf.png"></p>
+<p><img src="https://s1.ax1x.com/2020/07/12/U1hFQf.png" srcset="/blog/blog/img/loading.gif" lazyload alt="U1hFQf.png"></p>
 <p>函数说明的两种方法</p>
 <p>①  <em>谁调用谁说明</em>：函数说明语句放在调用函数的函数体中。</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs c"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(<span class="hljs-keyword">void</span>)</span> </span>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">maxnum</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span></span>;<br>    . . .<br>&#125;<br></code></pre></td></tr></table></figure>
@@ -1195,7 +1195,7 @@
 <li>逐个字符输入/输出：采用”%c”格式说明和循环，像处理数组元素一样输入输出。</li>
 <li>整串输入/输出：采用“%S”格式符来实现。</li>
 </ol>
-<p><img src="https://s1.ax1x.com/2020/07/12/U8mjpD.png" srcset="/blog/img/loading.gif" lazyload alt="U8mjpD.png"></p>
+<p><img src="https://s1.ax1x.com/2020/07/12/U8mjpD.png" srcset="/blog/blog/img/loading.gif" lazyload alt="U8mjpD.png"></p>
 <p><strong>总结</strong>：</p>
 <ol>
 <li>字符数组与一维数组类似，定义与引用方法相同。</li>
@@ -1370,7 +1370,7 @@
 <p><strong>共用体成员引用</strong></p>
 <p>共用体变量名.成员名</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs c">例如：sc.i;<br><br>共用体变量sc中的成员i;<br></code></pre></td></tr></table></figure>
-<p><img src="https://s1.ax1x.com/2020/07/15/UwTc5j.png" srcset="/blog/img/loading.gif" lazyload alt="UwTc5j.png"></p>
+<p><img src="https://s1.ax1x.com/2020/07/15/UwTc5j.png" srcset="/blog/blog/img/loading.gif" lazyload alt="UwTc5j.png"></p>
 <p>共用体变量所有成员<em>共享同一段内存空间</em>，他占用的内存空间是所需内存<em>最大的成员的空间</em></p>
 <p><strong>共同体变量赋值</strong></p>
 <p>共用体<em>各成员的空间共享</em>，所以不能整体赋值和输出，在<em>初始化也只能初始化一个成员</em></p>
@@ -1467,12 +1467,12 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E7%BC%96%E7%A8%8B/" class="category-chain-item">编程</a>
+  <a href="/blog/categories/%E7%BC%96%E7%A8%8B/" class="category-chain-item">编程</a>
   
   
     <span>></span>
     
-  <a href="/categories/%E7%BC%96%E7%A8%8B/C/" class="category-chain-item">C</a>
+  <a href="/blog/categories/%E7%BC%96%E7%A8%8B/C/" class="category-chain-item">C</a>
   
   
 
@@ -1489,7 +1489,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/C/">#C</a>
+        <a href="/blog/tags/C/">#C</a>
       
     </div>
   
@@ -1502,7 +1502,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>C语言</div>
-      <div>https://kd-happy.github.io/posts/2021/04-22b180539b358b.html</div>
+      <div>https://kd-happy.github.io/blog/posts/2021/04-22b180539b358b.html</div>
     </div>
     <div class="license-meta">
       
@@ -1544,7 +1544,7 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/posts/2021/04-227548fa7ce917.html" title="MOOC爬虫">
+                      <a href="/blog/posts/2021/04-227548fa7ce917.html" title="MOOC爬虫">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">MOOC爬虫</span>
                         <span class="visible-mobile">上一篇</span>
@@ -1554,7 +1554,7 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/posts/2021/04-224a4cd38f469e.html" title="Hello World">
+                      <a href="/blog/posts/2021/04-224a4cd38f469e.html" title="Hello World">
                         <span class="hidden-mobile">Hello World</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
@@ -1710,8 +1710,8 @@
 
 <script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
 <script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
-<script  src="/blog/js/events.js" ></script>
-<script  src="/blog/js/plugins.js" ></script>
+<script  src="/blog/blog/js/events.js" ></script>
+<script  src="/blog/blog/js/plugins.js" ></script>
 
 
   <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
@@ -1735,7 +1735,7 @@
 
 
   
-    <script  src="/blog/js/img-lazyload.js" ></script>
+    <script  src="/blog/blog/js/img-lazyload.js" ></script>
   
 
 
@@ -1910,7 +1910,7 @@
 
   <script  src="https://lib.baomitu.com/mathjax/3.2.0/es5/tex-mml-chtml.js" ></script>
 
-  <script  src="/blog/js/local-search.js" ></script>
+  <script  src="/blog/blog/js/local-search.js" ></script>
 
   <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
@@ -1920,7 +1920,7 @@
 
 <!-- 主题的启动项，将它保持在最底部 -->
 <!-- the boot of the theme, keep it at the bottom -->
-<script  src="/blog/js/boot.js" ></script>
+<script  src="/blog/blog/js/boot.js" ></script>
 
 
   
