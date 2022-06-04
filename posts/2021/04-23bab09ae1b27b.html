@@ -523,6 +523,14 @@ L2Dwidget.init({ "model": { jsonPath:
     
 
     
+    <script>
+      document.querySelectorAll("img[src]").forEach(f => {
+          var src = f.getAttribute("src")
+          if (!src.includes("//")) {
+              f.setAttribute("src", "/blog"+src)
+          }
+      })
+    </script>
   </main>
 
   <footer>
