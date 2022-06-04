@@ -385,7 +385,7 @@
     document.querySelectorAll("[src]").forEach(f => {
         var src = f.getAttribute("src")
         if (!src.includes("//") && !src.includes("/blog")) {
-            f.setAttribute("src", "."+src)
+            f.setAttribute("src", "/blog"+src)
         }
     })
     </script>

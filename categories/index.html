@@ -509,48 +509,6 @@
     
     <div class="category-sub row nomargin-x">
       <a class="category-subitem collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Python"
-        id="heading-a7f5f35426b927411fc9231b56382173" role="tab" data-toggle="collapse" href="#collapse-a7f5f35426b927411fc9231b56382173"
-        aria-expanded="false"
-      >
-        Python
-        <span class="list-group-count"></span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-        <a href="/categories/%E7%BC%96%E7%A8%8B/Python/" class="category-count col-2 col-md-1 col-xm-1">
-          <i class="iconfont icon-articles"></i>
-          <span>1</span>
-        </a>
-      
-      <div class="category-collapse collapse " id="collapse-a7f5f35426b927411fc9231b56382173"
-           role="tabpanel" aria-labelledby="heading-a7f5f35426b927411fc9231b56382173">
-        
-        
-          
-  <div class="category-post-list">
-    
-    
-      
-      
-        <a href="/posts/2021/04-227548fa7ce917.html" title="MOOC爬虫"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">MOOC爬虫</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div class="category-sub row nomargin-x">
-      <a class="category-subitem collapsed
           list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Javascript"
         id="heading-9e13b69d1d2da927102acaaaf7154a37" role="tab" data-toggle="collapse" href="#collapse-9e13b69d1d2da927102acaaaf7154a37"
         aria-expanded="false"
@@ -579,6 +537,48 @@
            class="list-group-item list-group-item-action
            ">
           <span class="category-post">虎牙直播宝箱加速</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Python"
+        id="heading-a7f5f35426b927411fc9231b56382173" role="tab" data-toggle="collapse" href="#collapse-a7f5f35426b927411fc9231b56382173"
+        aria-expanded="false"
+      >
+        Python
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/%E7%BC%96%E7%A8%8B/Python/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>1</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-a7f5f35426b927411fc9231b56382173"
+           role="tabpanel" aria-labelledby="heading-a7f5f35426b927411fc9231b56382173">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/2021/04-227548fa7ce917.html" title="MOOC爬虫"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">MOOC爬虫</span>
         </a>
       
     
@@ -742,7 +742,7 @@
     document.querySelectorAll("[src]").forEach(f => {
         var src = f.getAttribute("src")
         if (!src.includes("//") && !src.includes("/blog")) {
-            f.setAttribute("src", "."+src)
+            f.setAttribute("src", "/blog"+src)
         }
     })
     </script>
