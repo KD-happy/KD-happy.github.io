@@ -481,7 +481,7 @@
     <script>
       document.querySelectorAll("img[src]").forEach(f => {
           var src = f.getAttribute("src")
-          if (!src.includes("//")) {
+          if (!src.includes("//") && !src.includes("/blog")) {
               f.setAttribute("src", "/blog"+src)
           }
       })
@@ -492,7 +492,7 @@
     <div class="footer-inner">
   
     <div class="footer-content">
-       <!--<a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>--> <div><i class="iconfont icon-love"></i> <a href="https://gitee.com/kdlong/" target="_blank" rel="nofollow noopener"><span>KD 的Gitee</span></a></div> <div> <span id="timeDate">载入天数...</span> <span id="times">载入时分秒...</span> <script src="/js/duration.js"></script> </div> 
+       <!--<a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>--> <div><i class="iconfont icon-love"></i> <a href="https://gitee.com/kdlong/" target="_blank" rel="nofollow noopener"><span>KD 的Gitee</span></a></div> <div> <span id="timeDate">载入天数...</span> <span id="times">载入时分秒...</span> <script src="/blog/js/duration.js"></script> </div> 
     </div>
   
   
